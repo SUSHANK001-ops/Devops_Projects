@@ -12,7 +12,7 @@ Inspired by [ProDevOpsGuy's Project Guide](https://blog.prodevopsguytech.com/zom
 
 ---
 
-## 📸 Proof of Completion & Deployment
+## 📸 Proof of Completion & Deployment []
 
 ### 1. Live Application Running on AWS EC2 (`:3000`)
 The React application compiled into an optimized static bundle, served securely via Nginx Alpine on port `3000`:
@@ -60,7 +60,7 @@ Multi-stage build process executing `react-scripts build` inside a Node.js 20 co
 [Live Zomato App on EC2 (http://<EC2-IP>:3000)]
 ```
 
-### 🛡️ DevSecOps Toolchain
+###  DevSecOps Toolchain
 * **CI/CD Orchestration**: [Jenkins](https://www.jenkins.io/) (Declarative Pipeline)
 * **Code Quality & SAST**: [SonarQube](https://www.sonarqube.org/) + SonarScanner CLI
 * **Vulnerability Scanning**: [Aqua Security Trivy](https://trivy.dev/) (Filesystem & Container image scans)
